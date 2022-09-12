@@ -430,7 +430,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 44px);
   background: url("../img/fundo.jpg") top center;
   background-size: cover;
   position: relative;
@@ -474,10 +474,10 @@ h6 {
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+/* #hero .btn-get-started:hover {
   background: #cc1616;
   border-color: #cc1616;
-}
+} */
 
 @media (min-width: 1024px) {
   #hero {
@@ -1410,7 +1410,7 @@ section {
 #footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px;
-  width: calc(100% - 110px);
+  width: calc(100% - 44px);
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
